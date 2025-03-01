@@ -7,7 +7,7 @@ function App() {
 		<Router>
 			<div className="flex items-center justify-center min-h-screen ">
 				<div className="flex flex-col w-[80%] lg:w-[70%]">
-					<h1 className="font-bold mb-20">Card Wallet App</h1>
+					<h2 className="font-bold mb-20 text-4xl">Card Wallet App</h2>
 					<Routes>
 						<Route path="/add" element={<AddCard />} />
 						<Route path="/" element={<ListCards />} />
