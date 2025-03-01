@@ -42,7 +42,7 @@ const ListCards = () => {
         <Link to="/add">
           <div className="flex flex-col items-center justify-center w-full md:w-64 p-4 border-2 border-gray-300 border-dashed rounded-lg h-46">
             <div className="mb-2">
-              <img src="/src/assets/icon/add.png" className="w-7 h-7" alt="Add icon" />
+              <img src="/images/add.png" className="w-7 h-7" alt="Add icon" />
             </div>
             <p className="text-black text-lg font-medium">Add New Card</p>
           </div>
@@ -72,7 +72,7 @@ const ListCards = () => {
                     onClick={() => openDetail(card)}
                   >
                     <img
-                      src="/src/assets/icon/log_cc.png"
+                      src="/images/log_cc.png"
                       className="w-6 h-6 mb-3 mt-2"
                       alt="Log icon"
                     />
@@ -86,7 +86,7 @@ const ListCards = () => {
                       <div className="flex justify-end flex-col">
                         <div>
                           <img
-                            src="/src/assets/icon/mastercard-logo.svg"
+                            src="/images/mastercard-logo.svg"
                             className="w-10"
                             alt="Mastercard logo"
                           />
@@ -103,7 +103,7 @@ const ListCards = () => {
             className="absolute top-1/2 -left-7 transform -translate-y-1/2 rounded-full focus:outline-none active:outline-none"
           >
             <img
-              src="/src/assets/icon/back.png"
+              src="/images/back.png"
               className="opacity-60 w-7 h-7"
               alt="Back icon"
             />
@@ -113,7 +113,7 @@ const ListCards = () => {
             className="absolute top-1/2 -right-7 transform -translate-y-1/2 rounded-full focus:outline-none active:outline-none"
           >
             <img
-              src="/src/assets/icon/next.png"
+              src="/images/next.png"
               className="opacity-60 w-7 h-7"
               alt="Next icon"
             />
